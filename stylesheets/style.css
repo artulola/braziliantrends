@@ -1,0 +1,56 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Postre';
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+
+@font-face {
+    font-family: 'Postre';
+        src: url('/fonts/demo-postre.otf') format(opentype);
+        font-weight: normal;
+        font-size: normal;
+}
+@font-face{
+    font-family: 'Quilin';
+            src: url('/fonts/Quilin_PersonalUse.otf') format(opentype);
+            font-weight: normal;
+            font-size: normal;
+}
+
+
+header{
+    font-family: 'Quilin';
+    background-color: #FFFDF0;
+}
+
+.headermain{
+    display: flex;
+    flex-direction: inline;
+}
+
+header .login{
+    display: flex;
+    flex-direction: column;
+    margin-left: 27px;
+}
+
+header h1{
+    color: #BE2233;
+    margin-left: 160px;
+    font-weight: 400px;
+    font-size: 36px;
+}
+
+
+
+.login p{
+    margin: 0;
+}
+
+
