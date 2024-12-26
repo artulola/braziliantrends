@@ -1,4 +1,107 @@
+@font-face {
+    font-family: 'Quilin';
+    src: url('assets/fonts/Quilin_PersonalUse.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Postre';
+    src: url('assets/fonts/demo-postre.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body{
-    font-family: "Pacifico", serif;   
+    font-family: 'Postre', sans-serif;
+    margin: 0 auto;
 }
+
+body p{
+    margin: 0;
+}
+
+
+header{
+    background-color: #FFFDF0;
+    padding: 40px 160px 40px 160px;
+}
+
+.mainHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+header h1{
+    font-family: 'Quilin', sans-serif;
+    font-size: 36px;
+    color: #BE2233;
+}
+
+header input{
+    background-color: #F4D9D2;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 30px 0px 30px;
+    width: 500px;
+    height: 45px;
+    font-family: 'Quilin', sans-serif;
+    font-size: 24px;
+    color: #CC876A;
+}
+
+.loginOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #CC876A;
+}
+
+.labelOptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.loginOptions span{
+    width: 18px;
+    height: 18px;
+}
+
+.minhaConta{
+    color: #346D9E;
+}
+
+header span{
+    color: #CC876A;
+}
+
+hr{
+    border: 1px solid #F4D9D2;
+    width: 1032px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+    padding: 35px 0px 0px 0px;
+    color: #346D9E;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #346D9E;
+}
+
+
+
